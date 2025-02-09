@@ -2,6 +2,7 @@
   "name": "weather-ai-agent",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -9,6 +10,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "openai": "^4.82.0"
+    "dotenv": "^16.4.7",
+    "groq-sdk": "^0.15.0",
+    "readline-sync": "^1.4.10"
   }
 }
